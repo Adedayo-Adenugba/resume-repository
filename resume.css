@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    position: relative;
+
+}
+img{
+    height: 60%;
+    width: 60%;
+    /* border: 2px solid red; */
+    border-radius: 30%;
+}
+.container{
+    display: flex;
+}
+.aside{
+    background-color: rgb(15, 15, 53);
+    width: 40%;
+    max-height: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+.full{
+
+    border-radius: 100%;
+    border: 2px solid  rgb(15, 15, 53);
+    margin-right: 4px;
+}
+.ski{
+    list-style-type: circle;
+    margin-left: 10px;
+    margin-bottom: 12px;
+    font-weight: bolder;
+}
+.empty{
+    border-radius: 100%;
+    border: 2px solid white;
+    margin-left: 3px;
+
+}
+.stars{
+    position: absolute;
+    top: 2px;
+    left:64%;
+    display: flex;
+    /* margin: 0 4px; */
+}
+li{
+    font-size: 12.5px;
+    margin-bottom: 3px;
+}
+ul{
+    margin-bottom: 15px;
+}
+.image{
+    margin: 18px 20px;
+    max-width: 100%;
+}
+.address, .phone, .email{
+    margin-right: 3px;
+}
+.about-me{
+    text-align: start;
+    margin-left: 17px;
+    margin-bottom: 30px;
+    color: white;
+
+}
+.list{
+    list-style-type: disc;
+    margin-left: 10px;
+    font-weight: bolder;
+}
+.rule{
+    width: 100px;
+    margin-bottom: 10px;
+    
+}
+.header{
+    font-size: 17px;
+    font-weight: bolder;
+}
+p{
+    margin-bottom: 5px;
+    margin-right: 3px;
+    font-size: 12.5px;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+}
+.sponsor-span{
+    font-size: 12px;
+    font-weight: bolder;
+    margin-left:  15px;
+    margin-top: 14px;
+    position: absolute;
+
+}
+.under{
+    width: 70px;
+    background-color: black;
+    height: 2px;
+    margin-left: -2px;
+    margin-bottom: 5px;
+}
+.web{
+    font-size: 12px;
+    font-weight:bolder;
+    margin-left: 4px;
+}
+main{
+    background: #ddd;
+    width:60% ;
+}
+.line{
+    background-color: rgb(15, 15, 53);
+    width: 147px;
+    height: 10px;
+    position: absolute;
+    top: 33px;
+    left: 39%;
+    
+}
+section{
+    margin-bottom: 30px;
+}
+.exp{
+    margin-bottom: 1px;
+    font-size: 11px;
+}
+.head{
+    margin-top: 22px;
+    margin-left: 5px;
+}
+.section-header{
+    font-size: 11px;
+    font-weight: bolder;
+    margin: 5px 0 0 0 ;
+}
+.underline{
+    width: 110px;
+    background-color: black;
+    height: 2px;
+    margin-bottom: 5px;
+}
+.spans{
+    margin-bottom: 118px;
+}
+#my-name{
+    margin-top: 15px; 
+}
+
+@media (min-width:1024px) and (max-height:1310px){
+    .header{
+        font-size: 30px;
+        margin-left: 54px;
+    }
+    .rule{
+        margin-left: 55px;
+        width: 160px;
+    }
+    .image{
+        margin-left: 70px;
+        border-radius: 40%;
+        width: 60%;
+    }
+    .aside{
+        width: 30%;
+    }
+    main{
+        width: 70%;
+    }
+    p , li{
+        margin-left: 50px;
+        font-size: 20px;
+    }
+    .fas{
+        /* margin-right: 3px; */
+        font-size: 20px;
+    }
+    .logo-span{
+        margin-left: 45px;
+    }
+    .sponsor-span{
+        font-size: 20px;
+    }
+    #my-name{
+        margin-top: 30px;
+        text-align: center;
+        font-size: 65px;
+        letter-spacing: 10px;
+    }
+    .web{
+        font-size: 25px;
+        margin-left: 20px;
+    }
+    .line{
+        position: absolute;
+        top: 81px;
+        width: 620px;
+        margin-left: -100px;
+        height: 20px;
+    }
+    .section-header{
+        font-size: 27px;
+        margin-left: 10px;
+    }
+    .underline {
+        width: 266px;
+        margin-left: 10px;
+    }
+    b{
+        margin-left: -35px;
+        text-align: start;
+    }
+    .job{
+        margin-left: 10px;
+    }
+    .exp{
+        margin-left: 10px;
+        font-size: 15px;
+    }
+    .list , .ski{
+        margin-left: 18px;
+    }
+    .under{
+        margin-left: 10px;
+        width: 170px;
+    }
+    .spans{
+        margin-left: -40px;
+    }
+    .comp{
+        margin-left: 10px;
+    }
+    .full{
+
+        border-radius: 100%;
+        border: 6px solid  rgb(15, 15, 53);
+        margin-right: 4px;
+    }
+    .empty{
+        border-radius: 100%;
+        border: 6px solid  white ;
+        margin-right: 4px;
+    }
+}
